@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -62,21 +63,73 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-image: url(./assets/bg-hero.png);
   margin: auto;
-  width: 1386px;
+  border-radius: 50px;
+  width: 90vw;
   height: 742px;
+  padding: 20px;
+  margin-top: 30px;
 }
-.herobody{
-    color: #184655;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal; 
-    background-image:url(./assets/bg_hero.png);
+.hero_body > h1 {
+  color: #184655;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 #hashtags > ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
+#hashtags > ul > li {
+  color: #53748c;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 30px;
+}
+#search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 546px; */
+    height: 78.93px;
+    border-radius: 19px;
+background: #FFF;
+}
+ #search-bar>div{
+    flex:2;
+ }
+ #search-bar>button{
+    flex: 1;
+ }
+
+#search-bar>img{
+    /* color: #616161; */
+    padding: 20px;
+}
+#search-bar>input{
+    color: #727272;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 118%; /* 25.96px */
+/* width: 236.79px; */
+height: 22.784px;
+}
+#search-bar>button{
+    /* width: 189.595px; */
+height: 78.93px;
+border-radius: 0px 19px 19px 0px;
+background: #184655;
+}
+
+
+
+
