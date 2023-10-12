@@ -302,6 +302,7 @@ footer > div {
   flex-direction: column;
   justify-content: center;
   width: 524.656px;
+  margin-left: 190px;
 }
 footer > div > button {
   width: 251px;
